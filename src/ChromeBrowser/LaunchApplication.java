@@ -15,7 +15,7 @@ public class LaunchApplication {
 	public static void main(String[] args) 
 	{
 	
-		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\DriverChrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Desenvolvimento\\Selenium\\DriverChrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();	
 		
 		//driver.get("https://srv2012r2-19/CertiMedManager/gestor/public/cadastro#/novo-pro-hsm");

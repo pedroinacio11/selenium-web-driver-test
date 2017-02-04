@@ -11,7 +11,7 @@ public class LaunchApplicationFirefox {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\DriverFirefox\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Desenvolvimento\\Selenium\\DriverFirefox\\geckodriver.exe");
 		
 		WebDriver driver = new FirefoxDriver();
 		
